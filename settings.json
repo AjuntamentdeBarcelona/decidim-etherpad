@@ -86,6 +86,21 @@
   },
   */
 
+  "users": {
+    "admin": {
+      // 1) "password" can be replaced with "hash" if you install ep_hash_auth
+      // 2) please note that if password is null, the user will not be created
+      "password": "${ADMIN_PASSWORD}",
+      "is_admin": true
+    },
+    "user": {
+      // 1) "password" can be replaced with "hash" if you install ep_hash_auth
+      // 2) please note that if password is null, the user will not be created
+      "password": "${USER_PASSWORD}",
+      "is_admin": false
+    }
+  },
+
   // restrict socket.io transport methods
   "socketTransportProtocols" : ["xhr-polling", "jsonp-polling", "htmlfile"],
   
