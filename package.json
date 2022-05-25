@@ -24,14 +24,13 @@
   },
   "homepage": "https://github.com/talexand/etherpad-lite",
   "dependencies": {
+    "ep_adminpads2": "^2.1.57",
+    "ep_align": "^0.3.53",
     "ep_comments_page": "^1.0.5",
     "ep_embedded_hyperlinks2": "^1.2.4",
     "ep_font_color": "^0.0.63",
     "ep_headings2": "^0.2.44",
     "ep_markdown": "^0.1.50",
-    "ep_table_of_contents": "^0.3.42",
-    "@jcoreio/kexec": "4.0.0",
-    "lodash": "4.17.21",
-    "log4js": "6.4.2"
+    "ep_table_of_contents": "^0.3.42"
   }
 }
