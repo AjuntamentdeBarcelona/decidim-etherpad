@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/talexand/etherpad-lite",
   "dependencies": {
-    "ep_align": "^0.3.53",
     "ep_comments_page": "^1.0.5",
     "ep_embedded_hyperlinks2": "^1.2.4",
     "ep_font_color": "^0.0.63",
